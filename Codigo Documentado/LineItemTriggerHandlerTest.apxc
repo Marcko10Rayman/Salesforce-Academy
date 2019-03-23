@@ -1,0 +1,19 @@
+@isTest  //Se genera una avariable de Test
+public class LineItemTriggerHandlerTest {
+	
+    @isTest
+    private static void TestInsertLineItem() {
+        Line_Item__c var = new Line_Item__c(Description__c = 'Test',Type__c ='small');
+        //Se genera una variable con datos para realizar la prueba
+        
+        Test.startTest(); //este es un metodo para correr una prueba en apex
+        insert var; //Se inserta la variable con los datos dados 
+        Test.stopTest(); //para el test
+        
+        Product_Line_Item__c pli = [select Id, Description__c, Type__c from Product_Line_Item__c where Relationship__c = : var.Id];
+        //Se genera una variable del Product para obtener los datos y se compara la relacion en el where
+        System.assertEquals(pli.Description__c, var.Description__c,'Son Iguales');
+        //En una app siempre se ingresa un assert, en este caso se comparan las descipciones de los objetos creados
+    }
+
+//Se genera una clase de prueba para verificar el funcionamiento de el trigger y la clase anterior

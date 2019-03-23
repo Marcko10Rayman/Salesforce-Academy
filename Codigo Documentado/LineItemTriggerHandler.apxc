@@ -1,0 +1,23 @@
+public class LineItemTriggerHandler {
+    //Se genera un metodo para insertar los valores obtenidos del Line_Item
+    //El metodo se genera para obtener el listado del Objeto Line_Item llamado "items"
+    public static void insertPorductLineItem(List<Line_Item__c> items) {
+        Product_Line_Item__c pli = new Product_Line_Item__c();
+        //Se genera una variable de Product_Line_Item para obtener los datos del Line_Item
+        
+        //Se genera un for each
+        for(Line_Item__c li: items) {
+            pli.Description__c = li.Description__c;
+            pli.Type__c = li.Type__c;//Para hacer la conversion de un picklist a un text se puede hacer de esta forma
+            pli.Relationship__c = li.Id;//Aqui se obtiene la relacion Master-Detail y se genera en un ID
+        }
+        
+        try {
+            insert pli; //Se inserta el listado 
+        }
+        catch(Exception ex) {
+            System.debug(ex); //se realiza un debug para checar pruebas
+        }
+    }
+}
+//Se genera una clase LineItemTriggerHandler para insertar los valores del Line_Item al Product_Line_Item
