@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>AnimalLocator</members>
+        <members>AnimalLocatorMock</members>
+        <members>AnimalLocatorTest</members>
+        <members>AnimalsCallouts</members>
+        <members>AnimalsCalloutsTest</members>
+        <members>AnimalsHttpCalloutMock</members>
         <members>LineItemTriggerHandler</members>
         <members>LineItemTriggerHandlerTest</members>
         <name>ApexClass</name>
@@ -13,6 +19,10 @@
         <members>Line_Item__c</members>
         <members>Product_Line_Item__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>GetAnimalResource</members>
+        <name>StaticResource</name>
     </types>
     <version>45.0</version>
 </Package>
