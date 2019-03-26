@@ -18,6 +18,7 @@
     <types>
         <members>Line_Item__c</members>
         <members>Product_Line_Item__c</members>
+        <members>Project__c</members>
         <name>CustomObject</name>
     </types>
     <types>
