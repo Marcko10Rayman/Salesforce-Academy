@@ -16,6 +16,11 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>DisplayImage</members>
+        <members>HelloWorld</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
         <members>LineItemTrigger</members>
         <name>ApexTrigger</name>
     </types>
