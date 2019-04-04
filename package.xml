@@ -9,6 +9,8 @@
         <members>AnimalsCallouts</members>
         <members>AnimalsCalloutsTest</members>
         <members>AnimalsHttpCalloutMock</members>
+        <members>LeadProcessor</members>
+        <members>LeadProcessorTest</members>
         <members>LineItemTriggerHandler</members>
         <members>LineItemTriggerHandlerTest</members>
         <name>ApexClass</name>
