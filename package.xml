@@ -16,11 +16,13 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>AccountDetail</members>
         <members>AccountSummary</members>
         <members>ContactView</members>
         <members>DisplayImage</members>
         <members>DisplayUserInfo</members>
         <members>HelloWorld</members>
+        <members>OppView</members>
         <members>UserStatus</members>
         <name>ApexPage</name>
     </types>
