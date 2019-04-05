@@ -25,9 +25,12 @@
         <members>CreateContact</members>
         <members>DisplayImage</members>
         <members>DisplayUserInfo</members>
+        <members>HelloJQuery</members>
         <members>HelloWorld</members>
         <members>OppView</members>
+        <members>ShowImage</members>
         <members>UserStatus</members>
+        <members>jQueryMobileResources</members>
         <name>ApexPage</name>
     </types>
     <types>
@@ -42,6 +45,8 @@
     </types>
     <types>
         <members>GetAnimalResource</members>
+        <members>jQuery</members>
+        <members>vfimagetest</members>
         <name>StaticResource</name>
     </types>
     <version>45.0</version>
