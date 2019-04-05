@@ -18,7 +18,9 @@
     <types>
         <members>AccountDetail</members>
         <members>AccountEdit</members>
+        <members>AccountList</members>
         <members>AccountSummary</members>
+        <members>ContactList</members>
         <members>ContactView</members>
         <members>CreateContact</members>
         <members>DisplayImage</members>
