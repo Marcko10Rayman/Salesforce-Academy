@@ -47,6 +47,7 @@
         <members>campingList</members>
         <members>campingListItem</members>
         <members>harnessApp</members>
+        <members>helloMessageInteractive</members>
         <members>helloPlayground</members>
         <members>helloWorld</members>
         <name>AuraDefinitionBundle</name>
