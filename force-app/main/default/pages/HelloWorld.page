@@ -1,0 +1,21 @@
+<apex:page sidebar="false" showHeader="false" > 
+    <h1>Hello World</h1>
+        <apex:pageBlock title="Yeah Yeah">
+            <apex:pageBlockSection title="APEX">
+     
+                <p><b>
+                    This is fucking awesome
+                </b></p>
+                
+            </apex:pageBlockSection>
+            
+             <apex:pageBlockSection title="APEX 2">
+     
+                <p><b>
+                    This is fucking awesome
+                </b></p>
+                
+            </apex:pageBlockSection>
+            
+         </apex:pageBlock>
+</apex:page>
