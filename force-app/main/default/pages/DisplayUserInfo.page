@@ -1,0 +1,8 @@
+<apex:page >
+        <apex:pageBlock title=" logged-in user">
+    	<p>
+            <!--({! IF($User.isActive, $User.Firstname, 'inactive') })-->
+            {! $User.Firstname}
+        </p>
+    	</apex:pageBlock>
+</apex:page>

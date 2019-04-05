@@ -17,7 +17,9 @@
     </types>
     <types>
         <members>DisplayImage</members>
+        <members>DisplayUserInfo</members>
         <members>HelloWorld</members>
+        <members>UserStatus</members>
         <name>ApexPage</name>
     </types>
     <types>
