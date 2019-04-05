@@ -16,6 +16,8 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>AccountSummary</members>
+        <members>ContactView</members>
         <members>DisplayImage</members>
         <members>DisplayUserInfo</members>
         <members>HelloWorld</members>
