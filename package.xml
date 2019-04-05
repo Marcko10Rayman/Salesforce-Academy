@@ -9,10 +9,12 @@
         <members>AnimalsCallouts</members>
         <members>AnimalsCalloutsTest</members>
         <members>AnimalsHttpCalloutMock</members>
+        <members>ContactsListController</members>
         <members>LeadProcessor</members>
         <members>LeadProcessorTest</members>
         <members>LineItemTriggerHandler</members>
         <members>LineItemTriggerHandlerTest</members>
+        <members>NewCaseListController</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -22,11 +24,13 @@
         <members>AccountSummary</members>
         <members>ContactList</members>
         <members>ContactView</members>
+        <members>ContactsListController</members>
         <members>CreateContact</members>
         <members>DisplayImage</members>
         <members>DisplayUserInfo</members>
         <members>HelloJQuery</members>
         <members>HelloWorld</members>
+        <members>NewCaseList</members>
         <members>OppView</members>
         <members>ShowImage</members>
         <members>UserStatus</members>
