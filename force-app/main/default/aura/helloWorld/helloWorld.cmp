@@ -1,0 +1,7 @@
+<aura:component >
+    
+    <c:helloHeading/> <!--helloHeading is a child component of helloWorld, or that helloHeading is nested inside helloWorld-->
+    
+	<p>Hello Lightning!</p>
+    
+</aura:component>
