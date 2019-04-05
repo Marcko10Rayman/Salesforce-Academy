@@ -17,8 +17,10 @@
     </types>
     <types>
         <members>AccountDetail</members>
+        <members>AccountEdit</members>
         <members>AccountSummary</members>
         <members>ContactView</members>
+        <members>CreateContact</members>
         <members>DisplayImage</members>
         <members>DisplayUserInfo</members>
         <members>HelloWorld</members>
