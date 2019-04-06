@@ -89,6 +89,8 @@
         <members>helloMessageInteractive</members>
         <!--Aura Components Core-->
         <members>myEverythingComponent</members>
+        <!--Aura Components Skills and Tools-->
+        <members>myFirstComponent</members>
         <name>AuraDefinitionBundle</name>
     </types>
 
