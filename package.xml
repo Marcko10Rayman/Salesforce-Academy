@@ -87,7 +87,8 @@
         <members>helloPlayground</members>
         <members>campingListItem</members>
         <members>helloMessageInteractive</members>
-        
+        <!--Aura Components Core-->
+        <members>myEverythingComponent</members>
         <name>AuraDefinitionBundle</name>
     </types>
 
