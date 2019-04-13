@@ -27,6 +27,7 @@
         <members>AccountController</members>
         <!--Apex Basic and Database-->
         <members>EmailManager</members>
+        <members>StringArrayTest</members>
         <name>ApexClass</name>
     </types>
     
