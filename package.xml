@@ -133,6 +133,8 @@
         <members>Books4EveryoneMissingAuthors</members>
         <!--Developer Console Basics-->
         <members>meetGreet</members>
+        <!--Quick Start Aura Components-->
+        <members>MyContactList</members>
         <name>AuraDefinitionBundle</name>
     </types>
 
