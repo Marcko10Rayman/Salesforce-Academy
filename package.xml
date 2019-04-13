@@ -43,6 +43,8 @@
         <members>RandomContactFactory</members>
         <!--Developer Console Basics-->
         <members>EmailMissionSpecialist</members>
+        <!--Quick Start Aura Component-->
+        <members>MyContactListController</members>
         <name>ApexClass</name>
     </types>
     
