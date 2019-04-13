@@ -99,6 +99,7 @@
         <members>myFirstComponent</members>
         <!--Trasnform SQL to SOQL-->
         <members>Books4EveryoneHome</members>
+        <members>Books4EveryoneRecommendations</members>
         <name>AuraDefinitionBundle</name>
     </types>
 
