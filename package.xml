@@ -23,6 +23,8 @@
         <members>CalloutClass</members>
         <!--Trasnform SQL to SOQL-->
         <members>Books4EveryoneHomeController</members>
+        <!--Quick Start: Visual Studio Code-->
+        <members>AccountController</members>
         <name>ApexClass</name>
     </types>
     
