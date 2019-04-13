@@ -39,6 +39,8 @@
         <members>TestVerifyDate</members>
         <members>TestAccountDeletion</members>
         <members>TestRestrictContactByName</members>
+        <members>TestDataFactory</members>
+        <members>RandomContactFactory</members>
         <name>ApexClass</name>
     </types>
     
