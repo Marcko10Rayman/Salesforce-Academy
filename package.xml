@@ -25,6 +25,8 @@
         <members>Books4EveryoneHomeController</members>
         <!--Quick Start: Visual Studio Code-->
         <members>AccountController</members>
+        <!--Apex Basic and Database-->
+        <members>EmailManager</members>
         <name>ApexClass</name>
     </types>
     
