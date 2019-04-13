@@ -1,0 +1,21 @@
+<apex:page standardController="Account" recordSetVar="accounts">
+
+	<apex:form >
+    
+        <apex:repeat value="{!accounts}" var="a">  <!--An iteration component that allows you to output the contents of a collection according to a structure that you specify. -->
+        
+			<li>
+            	<!-- s used to create URL which redirects to external website or any other URL. -->
+                <apex:outputLink value="https://c.na85.visual.force.com/apex/AccountList?core.apexpages.request.devconsole=1/{a.id}">
+                    
+                	{!a.Name}
+                
+                </apex:outputLink>
+            
+            </li>            
+        
+        </apex:repeat>
+        
+    </apex:form>
+    
+</apex:page>

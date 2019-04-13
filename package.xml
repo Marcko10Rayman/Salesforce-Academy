@@ -21,6 +21,8 @@
         <members>NewCaseListController</members>
         <!--Triggers-->
         <members>CalloutClass</members>
+        <!--Trasnform SQL to SOQL-->
+        <members>Books4EveryoneHomeController</members>
         <name>ApexClass</name>
     </types>
     
@@ -95,6 +97,8 @@
         <members>myEverythingComponent</members>
         <!--Aura Components Skills and Tools-->
         <members>myFirstComponent</members>
+        <!--Trasnform SQL to SOQL-->
+        <members>Books4EveryoneHome</members>
         <name>AuraDefinitionBundle</name>
     </types>
 
