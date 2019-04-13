@@ -1,33 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    
     <types>
-        <members>AccountProcessor</members>
-        <members>AccountProcessorTest</members>
-        <members>AnimalLocator</members>
-        <members>AnimalLocatorMock</members>
-        <members>AnimalLocatorTest</members>
+        <members>LineItemTriggerHandler</members>
+        <members>LineItemTriggerHandlerTest</members>
+        <!--Apex Callouts REST & SOAP-->
         <members>AnimalsCallouts</members>
         <members>AnimalsCalloutsTest</members>
         <members>AnimalsHttpCalloutMock</members>
+        <members>AnimalLocatorTest</members>
+        <members>AnimalLocator</members>
+        <members>AnimalLocatorMock</members>
+        <!--Future & Bach Apex-->
+        <members>AccountProcessor</members>
+        <members>AccountProcessorTest</members>
         <members>LeadProcessor</members>
         <members>LeadProcessorTest</members>
-        <members>LineItemTriggerHandler</members>
-        <members>LineItemTriggerHandlerTest</members>
+        <!--VisualForce Basics-->
+        <members>ContactsListController</members>
+        <members>NewCaseListController</members>
+        <!--Triggers-->
+        <members>CalloutClass</members>
         <name>ApexClass</name>
     </types>
+    
     <types>
         <members>LineItemTrigger</members>
+        <!--Triggers-->
+        <members>HelloWorldTrigger</members>
+        <members>ExampleTrigger</members>
+        <members>AddRelatedRecord</members>
+        <members>AccountDeletion</members>
+        <members>CalloutTrigger</members>
+        <members>AccountAddressTrigger</members>
+        <members>ClosedOpportunityTrigger</members>
         <name>ApexTrigger</name>
     </types>
+    
     <types>
-        <members>Line_Item__c</members>
-        <members>Product_Line_Item__c</members>
+        <members>Line_Item__c</members> <!--Se obtiene el custom object desde Salesforce, si se coloca el * se jalan todos los objects-->
+        <members>Product_Line_Item__c</members> <!--Se obtiene el custom object desde Salesforce-->
         <members>Project__c</members>
+        <!--VisualForce Basics-->
+        <members>Expense__c</members>
+        <!--Trasnform SQL to SOQL-->
+        <members>Author__c</members>
+        <members>Book__c</members>
+        <members>Recommendation__c</members>
         <name>CustomObject</name>
     </types>
+    
     <types>
+        <!--Apex Callouts REST & SOAP-->
         <members>GetAnimalResource</members>
+        <!--VisualForce Basics-->
+        <members>jQuery</members>
+        <members>vfimagetest</members>
         <name>StaticResource</name>
     </types>
+    
+    <types>
+        <!--VisualForce Basics-->
+        <members>HelloWorld</members>
+        <members>DisplayImage</members>
+        <members>UserStatus</members>
+        <members>DisplayUserInfo</members>
+        <members>AccountSummary</members>
+        <members>ContactView</members>
+        <members>AccountDetail</members>
+        <members>OppView</members>
+        <members>AccountEdit</members>
+        <members>CreateContact</members>
+        <members>ContactList</members>
+        <members>AccountList</members>
+        <members>HelloJQuery</members>
+        <members>jQueryMobileResources</members>
+        <members>ShowImage</members>
+        <members>ContactsListController</members>
+        <members>NewCaseList</members>
+        <name>ApexPage</name>
+    </types>
+    
+    <types>
+        <!--Aura Components Basics-->
+        <members>helloWorld</members>
+        <members>harnessApp</members>
+        <members>campingList</members>
+        <members>camping</members>
+        <members>campingHeader</members>
+        <members>helloPlayground</members>
+        <members>campingListItem</members>
+        <members>helloMessageInteractive</members>
+        <!--Aura Components Core-->
+        <members>myEverythingComponent</members>
+        <!--Aura Components Skills and Tools-->
+        <members>myFirstComponent</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+
     <version>45.0</version>
 </Package>
+
