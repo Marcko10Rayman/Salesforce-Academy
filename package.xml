@@ -100,6 +100,7 @@
         <!--Trasnform SQL to SOQL-->
         <members>Books4EveryoneHome</members>
         <members>Books4EveryoneRecommendations</members>
+        <members>Books4EveryoneMissingAuthors</members>
         <name>AuraDefinitionBundle</name>
     </types>
 
