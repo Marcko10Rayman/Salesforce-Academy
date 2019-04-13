@@ -74,6 +74,8 @@
         <members>Author__c</members>
         <members>Book__c</members>
         <members>Recommendation__c</members>
+        <!--Build a Suggestion App-->
+        <members>Suggestion__c</members>
         <name>CustomObject</name>
     </types>
     
