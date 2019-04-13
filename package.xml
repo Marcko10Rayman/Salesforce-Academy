@@ -41,6 +41,8 @@
         <members>TestRestrictContactByName</members>
         <members>TestDataFactory</members>
         <members>RandomContactFactory</members>
+        <!--Developer Console Basics-->
+        <members>EmailMissionSpecialist</members>
         <name>ApexClass</name>
     </types>
     
@@ -101,6 +103,9 @@
         <members>ShowImage</members>
         <members>ContactsListController</members>
         <members>NewCaseList</members>
+        <!--Developer Console Basics-->
+        <members>FlightSystemsChecklist</members>
+        <members>StationCheck</members>
         <name>ApexPage</name>
     </types>
     
@@ -122,6 +127,8 @@
         <members>Books4EveryoneHome</members>
         <members>Books4EveryoneRecommendations</members>
         <members>Books4EveryoneMissingAuthors</members>
+        <!--Developer Console Basics-->
+        <members>meetGreet</members>
         <name>AuraDefinitionBundle</name>
     </types>
 
