@@ -37,6 +37,8 @@
         <members>TaskUtil</members>
         <members>VerifyDate</members>
         <members>TestVerifyDate</members>
+        <members>TestAccountDeletion</members>
+        <members>TestRestrictContactByName</members>
         <name>ApexClass</name>
     </types>
     
@@ -50,6 +52,9 @@
         <members>CalloutTrigger</members>
         <members>AccountAddressTrigger</members>
         <members>ClosedOpportunityTrigger</members>
+        <!--Apex Testing-->
+        <members>AccountDeletion</members>
+        <members>RestrictContactByName</members>
         <name>ApexTrigger</name>
     </types>
     
