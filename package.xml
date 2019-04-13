@@ -31,6 +31,12 @@
         <members>AccountHandler</members>
         <members>ContactSearch</members>
         <members>ContactAndLeadSearch</members>
+        <!--Apex Testing-->
+        <members>TemperatureConverter</members>
+        <members>TemperatureConverterTest</members>
+        <members>TaskUtil</members>
+        <members>VerifyDate</members>
+        <members>TestVerifyDate</members>
         <name>ApexClass</name>
     </types>
     
