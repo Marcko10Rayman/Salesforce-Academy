@@ -106,6 +106,8 @@
         <!--Developer Console Basics-->
         <members>FlightSystemsChecklist</members>
         <members>StationCheck</members>
+        <!--Quick Start Visualforce-->
+        <members>ContactForm</members>
         <name>ApexPage</name>
     </types>
     
